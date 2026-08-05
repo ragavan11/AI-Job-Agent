@@ -1,0 +1,6 @@
+{
+  "_comment": "Greenhouse/Lever/Ashby don't offer global search APIs — each endpoint returns ONE company's postings. This file is what actually determines your coverage on those three sources. To find a company's token: open their careers page, look for a URL like boards.greenhouse.io/{token}, jobs.lever.co/{token}, or jobs.ashbyhq.com/{token}. The entries below are starter examples confirmed to exist at build time — expand this list with companies you actually care about. A stale or wrong token just returns an error that gets logged and skipped, it won't break the app.",
+  "greenhouse": ["stripe"],
+  "lever": ["palantir"],
+  "ashby": ["notion"]
+}
